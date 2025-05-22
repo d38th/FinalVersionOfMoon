@@ -102,7 +102,7 @@ do
                 ClipsDescendants = true,
                 Name = "MasterContainer"
             }),
-            util.new("UICorner", {
+            Instance.new("UICorner", {
                 CornerRadius = 0, 6,
                 Parrent = Frame,
             })
