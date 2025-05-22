@@ -67,14 +67,14 @@ interactable.__index = interactable
 
 --//Theme
 local theme = getgenv().theme or {
-    BackColor = Color3.fromRGB(45, 45, 50),
-    TopBar = Color3.fromRGB(50, 50, 58),
+    BackColor = Color3.fromRGB(15, 15, 15),
+    TopBar = Color3.fromRGB(15, 15, 15),
 
-    UpperContainer = Color3.fromRGB(50, 50, 58),
-    InnerContainer = Color3.fromRGB(55, 55, 62),
+    UpperContainer = Color3.fromRGB(20, 20, 20),
+    InnerContainer = Color3.fromRGB(20, 20, 20),
 
-    InteractableBackground = Color3.fromRGB(45, 45, 58),
-    InteractableOutline = Color3.fromRGB(100, 100, 100),
+    InteractableBackground = Color3.fromRGB(33, 33, 33),
+    InteractableOutline = Color3.fromRGB(33, 33, 33),
 
     Accent = Color3.fromRGB(130, 130, 180), --> Used for hover outlines, selected tab
 
