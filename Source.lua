@@ -101,10 +101,6 @@ do
                 BackgroundColor3 = theme.BackColor,
                 ClipsDescendants = true,
                 Name = "MasterContainer"
-            }),
-            Instance.new("UICorner", {
-                CornerRadius = 0, 6,
-                Parrent = Frame,
             })
         })
 
