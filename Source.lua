@@ -76,7 +76,7 @@ local theme = getgenv().theme or {
     InteractableBackground = Color3.fromRGB(33, 33, 33),
     InteractableOutline = Color3.fromRGB(33, 33, 33),
 
-    Accent = Color3.fromRGB(254, 194, 244), --> Used for hover outlines, selected tab
+    Accent = Color3.fromRGB(75, 51, 69), --> Used for hover outlines, selected tab
 
     NotSelectedTab = Color3.fromRGB(158, 128, 153), --> shows on all OTHER tabs
 
@@ -84,8 +84,8 @@ local theme = getgenv().theme or {
     SubTextColor = Color3.fromRGB(200,200,200),
 
 
-    ButtonTop = Color3.fromRGB(158, 128, 153), --Top color layer of the button.
-    ButtonBottom = Color3.fromRGB(254, 194, 244), --Under layer of the button -> reveals as tranparency lowers
+    ButtonTop = Color3.fromRGB(255, 194, 243), --Top color layer of the button.
+    ButtonBottom = Color3.fromRGB(255, 194, 243), --Under layer of the button -> reveals as tranparency lowers
 }
 
 --//Library
