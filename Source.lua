@@ -67,25 +67,25 @@ interactable.__index = interactable
 
 --//Theme
 local theme = getgenv().theme or {
-    BackColor = Color3.fromRGB(15, 15, 15),
-    TopBar = Color3.fromRGB(15, 15, 15),
+    BackColor = Color3.fromRGB(45, 45, 50),
+    TopBar = Color3.fromRGB(50, 50, 58),
 
-    UpperContainer = Color3.fromRGB(20, 20, 20),
-    InnerContainer = Color3.fromRGB(20, 20, 20),
+    UpperContainer = Color3.fromRGB(50, 50, 58),
+    InnerContainer = Color3.fromRGB(55, 55, 62),
 
-    InteractableBackground = Color3.fromRGB(33, 33, 33),
-    InteractableOutline = Color3.fromRGB(33, 33, 33),
+    InteractableBackground = Color3.fromRGB(45, 45, 58),
+    InteractableOutline = Color3.fromRGB(100, 100, 100),
 
-    Accent = Color3.fromRGB(75, 51, 69), --> Used for hover outlines, selected tab
+    Accent = Color3.fromRGB(130, 130, 180), --> Used for hover outlines, selected tab
 
-    NotSelectedTab = Color3.fromRGB(158, 128, 153), --> shows on all OTHER tabs
+    NotSelectedTab = Color3.fromRGB(70, 70, 100), --> shows on all OTHER tabs
 
     TextColor = Color3.fromRGB(255,255,255),
     SubTextColor = Color3.fromRGB(200,200,200),
 
 
-    ButtonTop = Color3.fromRGB(255, 194, 243), --Top color layer of the button.
-    ButtonBottom = Color3.fromRGB(255, 194, 243), --Under layer of the button -> reveals as tranparency lowers
+    ButtonTop = Color3.fromRGB(50, 50, 64), --Top color layer of the button.
+    ButtonBottom = Color3.fromRGB(58, 58, 85), --Under layer of the button -> reveals as tranparency lowers
 }
 
 --//Library
